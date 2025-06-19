@@ -1,21 +1,94 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DOMINION | Realiti Bisnes Dikuasai</title>
-  <meta name="description" content="DOMINION ialah platform kuasa gelap untuk bantu manusia reset dan menguasai semula bisnes mereka dari ilusi kegagalan.">
-  <meta name="keywords" content="DOMINION, bisnes stuck, bantu bisnes, mula bisnes, reset minda, realiti kuasa">
-  <meta name="author" content="Armand">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DOMINION — Realiti Baru</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-  </script>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: '
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 48px;
+      color: #e60000;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      color: #aaa;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta input {
+      padding: 10px;
+      width: 70%;
+      max-width: 300px;
+      background: #111;
+      border: 1px solid #444;
+      color: #fff;
+    }
+    .cta button {
+      padding: 10px 20px;
+      background: #e60000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DOMINION</h1>
+    <p>Sistem Ilusi Kekayaan | Kawalan Realiti | Bisnes Dalam Genggaman</p>
+  </header>
+
+  <section>
+    <h2>Siapa Kami Bantu?</h2>
+    <p>
+      Untuk mereka yang sangkut dalam bisnes. Untuk mereka yang belum mula. Untuk mereka yang nak kuasa ilusi. DOMINION bukan hanya platform — ia medan realiti baru.
+    </p>
+
+    <h2>Kenapa DOMINION?</h2>
+    <p>
+      Kerana dunia sekarang bukan realiti. Kami cipta sistem yang bantu kau bina kuasa dalaman, tarik bisnes secara pukau, dan pancarkan ilusi yang manusia percaya.
+    </p>
+
+    <div class="cta">
+      <h3>🔥 Masukkan Email Kau Untuk Akses Ilusi</h3>
+      <form action="https://formspree.io/f/xpzbwkgb" method="POST">
+        <input type="email" name="email" placeholder="Email kau di sini..." required>
+        <button type="submit">Aktifkan Realiti</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 DOMINION. Semua hak cipta dalam genggaman ilusi.
+  </footer>
+</body>
+</html>
